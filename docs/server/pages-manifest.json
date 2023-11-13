@@ -1,1 +1,0 @@
-{"/_app":"pages/_app.js","/_error":"pages/_error.js","/404":"pages/404.html","/_document":"pages/_document.js","/api/hello":"pages/api/hello.js","/about":"pages/about.html","/category":"pages/category.html","/":"pages/index.html","/new":"pages/new.html","/movies/[...params]":"pages/movies/[...params].js","/index(SSR)":"pages/index(SSR).js"}
