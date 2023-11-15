@@ -17,9 +17,7 @@ export default function Home() {
 
   const router = useRouter();
   const onClick = (id, title, img) => {
-    router.push(
-      `/movies/${title}/${id}`
-    );
+    router.push(`/movies/${title}/${id}`);
   }
 
   return (
@@ -38,12 +36,8 @@ export default function Home() {
 
           <img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} />
 
-          <Link href={`/movies/${movie.original_title}/${movie.id}`}
-            as={`/movies/${movie.original_title}`}
-            legacyBehavior>
-
+          <Link legacyBehavior href={`/movies/${movie.original_title}/${movie.id}`}>
             <a>{movie.original_title}</a>
-
           </Link>
 
         </div>
